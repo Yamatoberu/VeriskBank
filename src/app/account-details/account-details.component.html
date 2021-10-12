@@ -1,0 +1,23 @@
+<div id="account_details">
+  <div>
+    <label for="account_number">Account Number: </label>
+    <p id="account_number">{{account.accountNumber}}</p>
+  </div>
+  <div>
+    <label for="account_holder">Account Holder: </label>
+    <p id="account_holder">{{account.accountHolder}}</p>
+  </div>
+  <div>
+    <label for="account_status">Status: </label>
+    <p id="account_status">{{account.accountStatus}}</p>
+  </div>
+  <div>
+    <label for="open_date">Open Date: </label>
+    <p id="open_date">{{account.openDate | date : 'd/M/yy'}}</p>
+  </div>
+  <div>
+    <label for="account_balance">Current Balance: </label>
+    <p id="account_balance">{{account.currentBalance | currency}}</p>
+  </div>
+</div>
+<app-account-transaction-history></app-account-transaction-history>

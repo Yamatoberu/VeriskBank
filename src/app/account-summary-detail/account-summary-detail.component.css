@@ -1,0 +1,32 @@
+*{
+  margin: 5px;
+  text-decoration: none;
+}
+
+h4, p{
+  display: inline;
+}
+
+#account_summary_detail{
+  padding: 10px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #a4cafd;
+  text-decoration: none;
+}
+
+#account_summary_detail:hover{
+  background-color: #0056ab;
+  color: white;
+}
+
+#account_summary_detail:active{
+  background-color: #0068c9;
+  color: white;
+}
+
+p{
+  padding-left: 100px;
+  text-align: right;
+}

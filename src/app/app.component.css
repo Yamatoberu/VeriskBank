@@ -1,0 +1,18 @@
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: dodgerblue;
+  color: white;
+  width: 100%;
+  bottom: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+h1 a{
+  text-decoration: none;
+}
+
+main {
+  background-color: #f1f7ff;
+}

@@ -1,0 +1,16 @@
+<a routerLink="/accountDetails/{{account.accountNumber}}" *ngFor="let account of accountList">
+  <div id="account_summary_detail">
+      <div>
+        <h4>Account Number: </h4><h4>{{account.accountNumber}}</h4>
+      </div>
+      <div>
+        <label for="account_type">Type: </label>
+        <p id="account_type">{{account.accountType}}</p>
+      </div>
+      <div>
+        <label for="account_balance">Balance: </label>
+        <p id="account_balance">{{account.currentBalance | currency}}</p>
+      </div>
+  </div>
+</a>
+

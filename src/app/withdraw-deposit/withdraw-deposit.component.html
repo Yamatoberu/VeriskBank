@@ -1,0 +1,24 @@
+<form>
+
+  <div>
+    <label for="accountNumber">Account: </label>
+    <select name="accountNumber" id="accountNumber" [(ngModel)]="accountNumber" (ngModelChange)="accountChangeHandler()">
+      <option *ngFor="let account of accountList" value="{{account.accountNumber}}">{{account.accountNumber}}</option>
+    </select>
+  </div>
+  <div>
+    <label>Current Balance: </label>
+    <p>{{accountBalance | currency}}</p>
+  </div>
+  <div>
+    <label for="amount">Amount: </label>
+    <input type="text" id="amount" name="amount" [(ngModel)]="amount">
+    <p class="errorText" style="display: none;">Invalid Amount</p>
+  </div>
+  <div>
+    <label for="description">Description: </label>
+    <textarea rows="4" cols="50" name="description" id="description" [(ngModel)]="description">Enter description here...</textarea>
+  </div>
+  <input type="submit" (click)="performWithdrawl()" value="Withdraw">
+  <input type="submit" (click)="performDeposit()" value="Deposit">
+</form>

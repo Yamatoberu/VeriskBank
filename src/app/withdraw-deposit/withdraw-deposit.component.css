@@ -1,0 +1,24 @@
+form{
+  padding: 10px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #bfdeff;
+}
+
+*{
+  margin: 5px;
+}
+
+p{
+  display: inline;
+}
+
+textarea{
+  display: block;
+}
+
+.errorText{
+  color: red;
+}
+

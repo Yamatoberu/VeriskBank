@@ -1,0 +1,8 @@
+#account_summary{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #bfdeff;
+}

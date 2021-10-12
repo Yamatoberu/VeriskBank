@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>Transaction Date</th>
+    <th>Account</th>
+    <th>Description</th>
+    <th>Amount</th>
+    <th>Balance</th>
+  </tr>
+  <tr *ngFor="let transaction of transactionHistory;">
+    <td>{{transaction.transactionDate | date : 'd/M/yyyy, h:mm a'}}</td>
+    <td>{{transaction.accountId}}</td>
+    <td>{{transaction.description}}</td>
+    <td>{{transaction.transactionAmount | currency}}</td>
+    <td>{{transaction.endingBalance | currency}}</td>
+  </tr>
+</table>

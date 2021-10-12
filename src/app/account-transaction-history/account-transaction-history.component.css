@@ -1,0 +1,19 @@
+table {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #bfdeff;
+}
+
+th, td {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  text-align: center;
+  padding: 5px;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}

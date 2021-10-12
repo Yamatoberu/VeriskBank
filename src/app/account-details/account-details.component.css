@@ -1,0 +1,18 @@
+*{
+  margin: 5px;
+}
+
+p{
+  display: inline;
+  width: available;
+  text-align: right;
+}
+
+#account_details{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #bfdeff;
+}
